@@ -21,3 +21,8 @@ The colors of the swatches are generated either
 
 
 The output file is palette.png (overrides the existing file)
+***************
+
+
+Updates version of the script (generate_swatch_img_from_clrs.py) now reads a color palette file in .clrs format.
+The script builds a functional copy of the saved/shared IP color palette in form of a PNG file.
