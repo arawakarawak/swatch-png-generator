@@ -48,7 +48,8 @@ def generate_swatch_image(num_swatches=64, num_rows=4, divider_thickness=10, fra
 
     # Save the image
     img.save('palette.png')
-
+    
+color_file='./colors.clrs'
 # Example usage
 # generate_swatch_image()  # This will save the image as 'palette.png' immediately
 generate_swatch_image(color_file='colors.clrs')  # This will use colors from the .clrs file and save as 'palette.png'
